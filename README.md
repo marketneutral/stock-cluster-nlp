@@ -2,7 +2,7 @@
 
 September 2017
 
-This is the second post in a series on using Machine Learning in pairs trading. Pairs trading is perhaps the earliest form of relative value quantitative trading in equities. This series attempts to bring to bear some modern Machine Learning tools to the pair trading investment process. In the first post of this series, I used `DBSCAN` clustering on latent statistical factors in price returns, the Morningstar financial_health_grade, and each company's market capitalization to find stocks which had a high likelihood of being valid eligible pairs in a pairs trading strategy. In this post, I take a very different path driven by the following question:
+This is the second post in a series on using Machine Learning in pairs trading. Pairs trading is perhaps the earliest form of relative value quantitative trading in equities. This series attempts to bring to bear some modern Machine Learning tools to the pair trading investment process. In the first post of this series, I used `DBSCAN` clustering on latent statistical factors in price returns, the Morningstar `financial_health_grade`, and each company's market capitalization to find stocks which had a high likelihood of being valid eligible pairs in a pairs trading strategy. In this post, I take a very different path driven by the following question:
 
 _Is it possible to find valid eligible pairs without using any price data at all?_
 
