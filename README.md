@@ -21,5 +21,5 @@ In this post, I:
 - gather business profiles on a couple thousand stocks,
 - utilize the `scikit-learn` natural language processing functionality `CountVectorizer` and `TfidfTransformer` to "read" these descriptions and extract important and novel concept features across all companies,
 - cluster stocks, again with `DBSCAN`, to find stocks that have similar profiles,
-- visualize the features for a handful of stocks via WordCloud to get some intuition on what the ML model is learning, and
+- visualize the features for a handful of stocks via `WordCloud` to get some intuition on what the ML model is learning, and
 - lastly, inspect the time series of discovered clusters to see if this process, having no stock price series inputs at all, are related.
